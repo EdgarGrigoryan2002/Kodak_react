@@ -1,0 +1,7 @@
+{
+    "editor.fontFamily": "space mono",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 13,
+    "editor.cursorStyle": "line",
+    "editor.accessibilityPageSize": 10
+}

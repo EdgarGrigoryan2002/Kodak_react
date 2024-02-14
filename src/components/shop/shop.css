@@ -1,0 +1,17 @@
+.count_buttons_container{
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none
+}

@@ -1,0 +1,75 @@
+.section_div {
+    width: 100%;
+    height: 90px;
+    background: #F8F9FA;
+    border-top: 1px solid #E9EAEA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.section_div>a {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.p {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 10px;
+}
+
+.p_two {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 10px;
+    animation: Anime 10s infinite alternate ease-in-out;
+}
+
+.p_two a {
+    animation: Link 10s infinite alternate ease-in-out;
+}
+
+@keyframes Anime {
+    from {
+        margin-left: 0%;
+    }
+
+    to {
+        margin-left: 65%;
+        
+    }
+
+}
+
+@keyframes Link {
+
+    0% {
+        color: aqua;
+    }
+
+    20% {
+        color: red;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    60% {
+        color: orange;
+    }
+
+    80% {
+        color: green;
+    }
+
+    100% {
+        color: aqua
+    }
+}
